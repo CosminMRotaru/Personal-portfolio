@@ -11,7 +11,7 @@ This is my personal portfolio as a frontend developer. Here you can find my main
 
 ## Live Demo
 
-[Check out the live portfolio here](https://your-demo-link.netlify.app)
+[Check out the live portfolio here](https://rotarucosmin-portfolio.netlify.app/)
 
 ## Preview
 
