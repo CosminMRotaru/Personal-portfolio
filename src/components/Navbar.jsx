@@ -32,7 +32,7 @@ const Navbar = ({ heroRef }) => {
           </a>
         </div>
         <ul className="nav__items">
-          <li><a className="nav__link" href="#projects">Projects</a></li>
+          <li><a className="nav__link" href="#work">Projects</a></li>
           <li><a className="nav__link" href="#about">About</a></li>
           <li><a className="nav__link" href="#skills">Skills</a></li>
           <li><a className="nav__link" href="#contact">Contact</a></li>
