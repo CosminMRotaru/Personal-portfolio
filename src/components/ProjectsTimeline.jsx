@@ -11,7 +11,7 @@ const ProjectsTimeline = () => (
     <div className="timeline">
 
       {/* PITCHCRAFT */}
-      <div className="timeline-item left">
+      <div className="timeline-item right">
         <div className="timeline-image">
           <img
             src={pitchcraftImg}
