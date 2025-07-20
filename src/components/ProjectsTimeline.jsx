@@ -11,7 +11,7 @@ const ProjectsTimeline = () => (
     <div className="timeline">
 
       {/* PITCHCRAFT */}
-      <div className="timeline-item right">
+      <div className="timeline-item left">
         <div className="timeline-image">
           <img
             src={pitchcraftImg}
@@ -27,9 +27,10 @@ const ProjectsTimeline = () => (
           </p>
           <ul className="project-stack">
             <li>React (with Hooks)</li>
+            <li>Vite (fast build/dev)</li>
+            <li>jsPDF (PDF export)</li>
             <li>Tailwind CSS (utility-first styling)</li>
             <li>Anthropic Claude API (AI-powered pitch generation)</li>
-            <li>jsPDF (PDF export)</li>
           </ul>
           <div className="project-links">
             <a href="https://pitchcraftrmc.netlify.app" target="_blank" rel="noopener">
@@ -44,7 +45,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* FOOD. */}
-      <div className="timeline-item left">
+      <div className="timeline-item right">
         <div className="timeline-image">
           <img
             src={foodImg}
@@ -77,7 +78,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* CHEF CLAUDE */}
-      <div className="timeline-item right">
+      <div className="timeline-item left">
         <div className="timeline-image">
           <img
             src={claudeImg}
@@ -110,7 +111,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* DEVQUIZ */}
-      <div className="timeline-item left">
+      <div className="timeline-item right">
         <div className="timeline-image">
           <img
             src={devquizImg}
@@ -143,7 +144,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* HANGDEV */}
-      <div className="timeline-item right">
+      <div className="timeline-item left">
         <div className="timeline-image">
           <img
             src={hangdevImg}
