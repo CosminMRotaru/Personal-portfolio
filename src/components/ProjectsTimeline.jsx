@@ -1,4 +1,5 @@
 import React from "react";
+import pitchcraftImg from "../assets/images/pitchcraft.png";
 import foodImg from "../assets/images/food.png";
 import claudeImg from "../assets/images/claude.png";
 import devquizImg from "../assets/images/devquiz.png";
@@ -8,6 +9,41 @@ const ProjectsTimeline = () => (
   <section className="projects-timeline" id="work">
     <h2 className="section-title">Projects</h2>
     <div className="timeline">
+
+      {/* PITCHCRAFT */}
+      <div className="timeline-item left">
+        <div className="timeline-image">
+          <img
+            src={pitchcraftImg}
+            alt="PitchCraft Screenshot"
+            className="timeline-img"
+          />
+        </div>
+        <div className="timeline-info">
+          <h3 className="project-title">PitchCraft</h3>
+          <p className="subtitle">When AI Is Your COO</p>
+          <p className="timeline-desc">
+            PitchCraft creates complete startup pitches with real AI in seconds. Enter your idea, pick a target, and export to PDF—all in a slick React interface.
+          </p>
+          <ul className="project-stack">
+            <li>React (with Hooks)</li>
+            <li>Tailwind CSS (utility-first styling)</li>
+            <li>Anthropic Claude API (AI-powered pitch generation)</li>
+            <li>jsPDF (PDF export)</li>
+          </ul>
+          <div className="project-links">
+            <a href="https://pitchcraftrmc.netlify.app" target="_blank" rel="noopener">
+              Live Demo
+            </a>{" "}
+            |{" "}
+            <a href="https://github.com/CosminMRotaru/PitchCraft" target="_blank" rel="noopener">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* FOOD. */}
       <div className="timeline-item left">
         <div className="timeline-image">
           <img
@@ -40,6 +76,7 @@ const ProjectsTimeline = () => (
         </div>
       </div>
 
+      {/* CHEF CLAUDE */}
       <div className="timeline-item right">
         <div className="timeline-image">
           <img
@@ -72,6 +109,7 @@ const ProjectsTimeline = () => (
         </div>
       </div>
 
+      {/* DEVQUIZ */}
       <div className="timeline-item left">
         <div className="timeline-image">
           <img
@@ -84,12 +122,13 @@ const ProjectsTimeline = () => (
           <h3 className="project-title">DevQuiz</h3>
           <p className="subtitle">Become a Frontend Pro, One Quiz at a Time</p>
           <p className="timeline-desc">
-            DevQuiz is a lightning-fast quiz app for web developers. Challenge yourself with timed questions on HTML, CSS, JS, and React. Enjoy instant feedback, score tracking,correct/wrong sounds on click, and a vibrant, accessible UI—built from scratch in React.
+            DevQuiz is a dynamic quiz platform for aspiring frontend developers. Choose your difficulty, get instant feedback, and learn interactively. Features custom question logic, score tracking, and a playful UI. Built with React and custom hooks.
           </p>
           <ul className="project-stack">
-            <li>React (functional components & hooks)</li>
-            <li>Custom CSS (responsive, accessible)</li>
-            <li>JavaScript (quiz logic)</li>
+            <li>React (interactive UI)</li>
+            <li>Custom Hooks (question logic)</li>
+            <li>Score Tracking</li>
+            <li>Responsive Design</li>
           </ul>
           <div className="project-links">
             <a href="https://devquizrmc.netlify.app" target="_blank" rel="noopener">
@@ -103,6 +142,7 @@ const ProjectsTimeline = () => (
         </div>
       </div>
 
+      {/* HANGDEV */}
       <div className="timeline-item right">
         <div className="timeline-image">
           <img
@@ -113,15 +153,15 @@ const ProjectsTimeline = () => (
         </div>
         <div className="timeline-info">
           <h3 className="project-title">HangDev</h3>
-          <p className="subtitle">Guess the word, save the languages!</p>
+          <p className="subtitle">The Classic Game, Rebooted for Devs</p>
           <p className="timeline-desc">
-            HangDev is a fun, developer-themed Hangman game: save programming languages, unlock confetti, and enjoy a modern, accessible interface with dark/light mode and keyboard support—perfect for frontend devs who love a challenge!
+            HangDev is a playful twist on Hangman, designed for developers. Guess dev-related words, track your wins, and enjoy the retro vibes. Built with React, custom game logic, and pixel-perfect design.
           </p>
           <ul className="project-stack">
-            <li>React (interactive UI)</li>
-            <li>JavaScript (game logic)</li>
-            <li>React Confetti (visual effects)</li>
-            <li>clsx (dynamic classnames)</li>
+            <li>React (game logic)</li>
+            <li>Custom Hooks</li>
+            <li>Persistent Score</li>
+            <li>Pixel Art UI</li>
           </ul>
           <div className="project-links">
             <a href="https://hangdevrmc.netlify.app" target="_blank" rel="noopener">
@@ -134,6 +174,7 @@ const ProjectsTimeline = () => (
           </div>
         </div>
       </div>
+
     </div>
   </section>
 );
