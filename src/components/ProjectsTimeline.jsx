@@ -10,8 +10,42 @@ const ProjectsTimeline = () => (
     <h2 className="section-title">Projects</h2>
     <div className="timeline">
 
-      {/* PITCHCRAFT */}
+      {/* FANTASYLAB */}
       <div className="timeline-item left">
+        <div className="timeline-image">
+          <img
+            src={fantasylabImg}
+            alt="FantasyLab Screenshot"
+            className="timeline-img"
+          />
+        </div>
+        <div className="timeline-info">
+          <h3 className="project-title">FantasyLab</h3>
+          <p className="subtitle">Decisions you can defend</p>
+          <p className="timeline-desc">
+            FantasyLab is a full-stack Fantasy Premier League planner with player lineups, transfer tools, fixture difficulty rankings, and real-time data sync. Built with React, Node.js, Express, and MongoDB.
+          </p>
+          <ul className="project-stack">
+            <li>React (with Hooks)</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Tailwind CSS (utility-first styling)</li>
+          </ul>
+          <div className="project-links">
+            <a href="https://fantasylabrmc.netlify.app/" target="_blank" rel="noopener">
+              Live Demo
+            </a>{" "}
+            |{" "}
+            <a href="https://github.com/CosminMRotaru/Fantasy-Lab" target="_blank" rel="noopener">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      {/* PITCHCRAFT */}
+      <div className="timeline-item right">
         <div className="timeline-image">
           <img
             src={pitchcraftImg}
@@ -45,7 +79,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* FOOD. */}
-      <div className="timeline-item right">
+      <div className="timeline-item left">
         <div className="timeline-image">
           <img
             src={foodImg}
@@ -78,7 +112,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* CHEF CLAUDE */}
-      <div className="timeline-item left">
+      <div className="timeline-item right">
         <div className="timeline-image">
           <img
             src={claudeImg}
@@ -111,7 +145,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* DEVQUIZ */}
-      <div className="timeline-item right">
+      <div className="timeline-item left">
         <div className="timeline-image">
           <img
             src={devquizImg}
@@ -144,7 +178,7 @@ const ProjectsTimeline = () => (
       </div>
 
       {/* HANGDEV */}
-      <div className="timeline-item left">
+      <div className="timeline-item right">
         <div className="timeline-image">
           <img
             src={hangdevImg}
