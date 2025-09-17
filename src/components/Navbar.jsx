@@ -19,7 +19,7 @@ const Navbar = ({ heroRef }) => {
     <nav className="sticky-nav">
       <div className="row">
         <div className="nav__brand-badge">
-          <span className="nav__logo">Cosmin Rotaru – Full-stack Developer</span>
+          <span className="nav__logo">Cosmin Rotaru – Full-Stack Developer</span>
           <a
             className={`badge-content${show ? " show" : ""}`}
             id="nav-badge"
