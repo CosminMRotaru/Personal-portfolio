@@ -38,7 +38,7 @@ const Hero = ({ heroRef }) => {
           <span className="name-gradient">Cosmin Rotaru</span>
         </h2>
         <div className="hero__subtitle">
-          Frontend Developer focused on modern UI &amp; React-based apps
+          Full-Stack Developer focused on React, Node.js &amp; modern web apps
         </div>
       </div>
     </header>
