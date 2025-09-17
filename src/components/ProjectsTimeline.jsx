@@ -1,4 +1,5 @@
 import React from "react";
+import fantasylabImg from "../assets/images/fantasylab.png";
 import pitchcraftImg from "../assets/images/pitchcraft.png";
 import foodImg from "../assets/images/food.png";
 import claudeImg from "../assets/images/claude.png";
