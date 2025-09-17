@@ -24,7 +24,7 @@ const ProjectsTimeline = () => (
           <h3 className="project-title">FantasyLab</h3>
           <p className="subtitle">Decisions you can defend</p>
           <p className="timeline-desc">
-            FantasyLab is a full-stack Fantasy Premier League planner with player lineups, transfer tools, fixture difficulty rankings, and real-time data sync. Built with React, Node.js, Express, and MongoDB.
+            FantasyLab is a full-stack Fantasy Football planner with player lineups, transfer tools, fixture difficulty rankings, and real-time data sync. Built with React, Node.js, Express, and MongoDB.
           </p>
           <ul className="project-stack">
             <li>React (with Hooks)</li>
