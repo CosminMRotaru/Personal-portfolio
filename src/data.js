@@ -98,7 +98,7 @@ I enjoy creating end-to-end solutions, from frontend UIs to backend APIs, and th
     type: 'experience',
     title: 'Experience',
     caption:
-      "Internship at Electronic Arts — worked on frontend features and collaborated with cross-functional teams. Familiar with modern web stacks and agile workflows.",
+      "Front-End Trainee at EPAM Systems (2025) — Completed a training program focused on expanding my frontend skill set, deepening JavaScript and CSS foundations while building confidence with TypeScript. The program combined workshops, assignments, and a final project emphasizing practical implementation.\n\nQuality Assurance Tester at Electronic Arts (2021) — Completed a QA testing internship where I gained hands-on experience in software testing processes. Participated in functional and regression testing, identified and tracked bugs using JIRA, and collaborated with developers to resolve issues.",
     image: '/projects/experience.png',
   }
 ]
