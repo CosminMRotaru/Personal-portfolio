@@ -26,7 +26,7 @@ export default function ProfileHeader() {
             <div className="flex items-baseline gap-2"><span className="font-semibold text-[18px]">∞</span><span className="text-[18px] text-[var(--text-secondary)]">Stack</span></div>
           </div>
 
-          <p className="text-[18px] text-[var(--text-secondary)] mt-3 max-w-[720px] profile-bio">Front-End Developer (React). Background in Electronics & Telecommunications — I build polished user interfaces and practical frontend solutions.</p>
+          <p className="text-[18px] text-[var(--text-secondary)] mt-3 max-w-[720px] profile-bio">Full-Stack Developer | React, Node.js, TypeScript</p>
         </div>
       </div>
 
