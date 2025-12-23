@@ -1,55 +1,76 @@
-# Cosmin Rotaru — Portfolio
+# 📸 Portfolio Instagram Clone
 
-This is my personal portfolio as a frontend developer. Here you can find my main projects, skills, and contact information.
+A personal portfolio website styled like Instagram's web profile layout, built with React + Vite.
 
-## Technologies Used
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white)
 
-- React
-- Tailwind CSS
-- JavaScript (ES6+)
+## ✨ Features
+
+- **Instagram-inspired UI** — Dark mode profile layout with avatar, bio, stats, and posts
+- **Skills Carousel** — Interactive skill highlights with story-like modal viewer
+- **Responsive Design** — Optimized for mobile, tablet, and desktop
+- **Smooth Navigation** — Sidebar on desktop, bottom nav on mobile/tablet
+- **Project Showcase** — Feed-style cards with live demo and code links
+
+## 🛠️ Tech Stack
+
+- React 18
 - Vite
+- Tailwind CSS
+- Vanilla CSS for responsive overrides
 
-## Live Demo
+## 🚀 Quick Start
 
-[Check out the live portfolio here](https://rotarucosmin-portfolio.netlify.app/)
+```bash
+# Install dependencies
+npm install
 
-## Preview
+# Run dev server
+npm run dev
 
-![Portfolio Preview](./src/assets/images/demo.png)
+# Build for production
+npm run build
+```
 
-## Features
+## 📁 Project Structure
 
-- Modern UI and responsive design
-- Project showcase with links to live demos and GitHub repositories
-- Skills section
-- Contact information with social links
+```
+src/
+├── components/
+│   ├── Sidebar.jsx       # Desktop navigation
+│   ├── TopBar.jsx        # Mobile/tablet header
+│   ├── BottomNav.jsx     # Mobile/tablet navigation
+│   ├── ProfileHeader.jsx # Avatar, bio, action buttons
+│   ├── Highlights.jsx    # Skills carousel + modal
+│   ├── Feed.jsx          # Posts container
+│   ├── PostCard.jsx      # Individual project cards
+│   └── Tabs.jsx          # Section tabs
+├── styles/
+│   ├── styles.css        # Global styles
+│   └── responsive.css    # Mobile/tablet overrides
+├── data.js               # Site content & projects
+├── App.jsx               # Main layout
+└── main.jsx              # Entry point
+```
 
-## Contact
+## 📱 Responsive Breakpoints
 
-- [LinkedIn](https://www.linkedin.com/in/marius-cosmin-rotaru-a8a242262/)
-- [GitHub](https://github.com/CosminMRotaru)
+| Breakpoint | Layout |
+|------------|--------|
+| < 768px | Mobile — TopBar + BottomNav |
+| 768px - 1023px | Tablet — TopBar + BottomNav |
+| ≥ 1024px | Desktop — Sidebar |
+
+## 👤 Author
+
+**Rotaru Marius-Cosmin**
+
+- GitHub: [@CosminMRotaru](https://github.com/CosminMRotaru)
+- LinkedIn: [Marius-Cosmin Rotaru](https://www.linkedin.com/in/marius-cosmin-rotaru-a8a242262/)
 - Email: cosminmariusrotaru@gmail.com
 
-## How to Run Locally
+## 📄 License
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/CosminMRotaru/P2.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd P2
-    ```
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-4. Start the development server:
-    ```bash
-    npm run dev
-    ```
-5. Open [http://localhost:5173](http://localhost:5173) in your browser to view the site.
-
-## License
-
-This project is licensed under the MIT License.
+This project is for personal portfolio use.
