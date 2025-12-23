@@ -67,6 +67,56 @@ body,
     max-width: calc(100vw - 32px) !important;
     overflow: hidden !important;
   }
+
+  .avatar-border {
+    width: 80px !important;
+    height: 80px !important;
+    min-width: 80px !important;
+  }
+
+  .avatar-border img {
+    width: 85px !important;
+    height: 78px !important;
+  }
+
+  .username {
+    font-size: 18px !important;
+  }
+
+  .profile-meta {
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    font-size: 14px !important;
+  }
+
+  .profile-meta span {
+    font-size: 14px !important;
+  }
+
+  .profile-bio {
+    font-size: 14px !important;
+    max-width: 100% !important;
+  }
+
+  article {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  article p {
+    font-size: 15px !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  article header {
+    font-size: 16px !important;
+  }
+
+  .post-links a,
+  article a {
+    font-size: 16px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
